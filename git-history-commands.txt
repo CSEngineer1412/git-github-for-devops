@@ -24,3 +24,5 @@ try { . "c:\Users\yoges\AppData\Local\Programs\Microsoft VS Code\resources\app\o
   24 git remote -v
   25 git push origin master
   26 git history
+
+this is new changes from github commit
