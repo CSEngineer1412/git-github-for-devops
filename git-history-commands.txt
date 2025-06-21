@@ -1,0 +1,26 @@
+try { . "c:\Users\yoges\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {} 
+   2 & C:/Users/yoges/AppData/Local/Programs/Python/Python311/python.exe g:/git-github-for-devops/testing.py
+   3 ls
+   4 git init
+   5 dir
+   6 dir -a
+   7 git status
+   8 git add testing.py
+   9 git status
+  10 git rm --cached
+  11 git rm --cached testing.py
+  12 git status
+  13 git add testing.py
+  14 git commit -m "added testing files"
+  15 git status
+  16 rm testing.py
+  17 git status
+  18 git restore testing.py
+  19 git status
+  20 git remote add origin https://github.com/CSEngineer1412/git-github-for-devops.git
+  21 git remote -v
+  22 git remote set url origin https://github.com/CSEngineer1412/git-github-for-devops.git
+  23 git remote set-url origin https://ithub.com/CSEngineer1412/git-github-for-devops.git
+  24 git remote -v
+  25 git push origin master
+  26 git history
